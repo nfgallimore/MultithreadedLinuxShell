@@ -1,4 +1,4 @@
-To compile to "make" in the terminal to run the makefile.
+To compile type "make" in the terminal to run the makefile.
 You can use the shell by running ./shell
 The following commands work:
 
