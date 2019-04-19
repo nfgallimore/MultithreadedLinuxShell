@@ -80,7 +80,7 @@ int main(int argc, char *argv[]) {
             /* Child executing command */
             if (strcmp(command.linuxCommand, "H") == 0)
             {
-                printf("C file1 file2 Copy; create file2, copy all bytes of file1 to file2 without deleting file1.\nD file Delete the named file.\nE comment Echo; display comment on screen followed by a new line (multiple\nspaces/tabs may be reduced to a single space); if no argument simply\nissue a new prompt.\nH Help; display the user manual.\nL List the contents of the current directory; see below.\nM file Make; create the named text file by launching a text editor.\nP file Print; display the contents of the named file on screen.\nQ Quit the shell.\nS Surf the web by launching a browser as a background process.\nW Wipe; clear the screen.\nX program Execute the named program.\n");
+                printf("C file1 file2 Copy; create file2, copy all bytes of file1 to file2 without deleting file1.\nD file Delete the named file.\nE comment Echo; display comment on screen followed by a new line (multiple\nspaces/tabs may be reduced to a single space); if no argument simply\nissue a new prompt.\nH Help; display the user manual.\nL List the contents of the current directory.\nM file Make; create the named text file by launching a text editor.\nP file Print; display the contents of the named file on screen.\nQ Quit the shell.\nS Surf the web by launching a browser as a background process.\nW Wipe; clear the screen.\nX program Execute the named program.\n");
             }
             else if (strcmp(command.linuxCommand, "X") == 0)
             {
